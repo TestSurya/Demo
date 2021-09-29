@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-03T18:23:43 IST" name="Batch22" finished-at="2021-09-03T18:24:08 IST" duration-ms="24858">
+    <groups>
+    </groups>
+    <test started-at="2021-09-03T18:23:43 IST" name="parallel execution" finished-at="2021-09-03T18:24:08 IST" duration-ms="24858">
+      <class name="Seleniumfolder.ParallelTesting">
+        <test-method signature="ChromeLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Seleniumfolder.ParallelTesting@44a7bfbc]" started-at="2021-09-03T18:23:43 IST" name="ChromeLogin" finished-at="2021-09-03T18:24:05 IST" duration-ms="22086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[suryatest123@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[asdfg@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeLogin -->
+        <test-method signature="MozillaLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Seleniumfolder.ParallelTesting@44a7bfbc]" started-at="2021-09-03T18:23:43 IST" name="MozillaLogin" finished-at="2021-09-03T18:24:08 IST" duration-ms="24800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[suryatest123@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[asdfg@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MozillaLogin -->
+      </class> <!-- Seleniumfolder.ParallelTesting -->
+    </test> <!-- parallel execution -->
+  </suite> <!-- Batch22 -->
+</testng-results>

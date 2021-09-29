@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Batch22]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="parallel execution(failed)">
+    <parameter name="un" value="suryatest123@gmail.com"/>
+    <parameter name="pwd" value="asdfg@1234"/>
+    <parameter name="URL" value="http://automationpractice.com/index.php"/>
+    <classes>
+      <class name="Seleniumfolder.ParallelTesting">
+        <methods>
+          <include name="CloseBroswer"/>
+          <include name="MozillaLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Seleniumfolder.ParallelTesting -->
+    </classes>
+  </test> <!-- parallel execution(failed) -->
+</suite> <!-- Failed suite [Batch22] -->
